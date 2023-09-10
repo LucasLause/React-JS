@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "Remera Linkin Park Meteora",
+        "description": "Remera Linkin Park Manga Larga Meteora",
+        "price": 5500,
+        "category": "remeras",
+        "image": "../../img/merch/remera1.webp"
+    },
+    {
+        "id": 2,
+        "title": "Remera Linkin Park Meteora 20 años",
+        "description": "Remera Linkin Park Meteora 20 años edición aniversario",
+        "price": 8000,
+        "category": "remeras",
+        "image": "../../img/merch/remera2.webp"
+    },
+    {
+        "id": 3,
+        "title": "Buzo Linkin Park",
+        "description": "Buzo Linkin Park Color Negro",
+        "price": 10000,
+        "category": "buzos",
+        "image": "../../img/merch/buzo1.webp"
+    },
+    {
+        "id": 4,
+        "title": "Buzo Linkin Park Con Capucha",
+        "description": "Buzo Linkin Park Con Capucha Color Negro y Azul",
+        "price": 11000,
+        "category": "buzos",
+        "image": "../../img/merch/buzo2.webp"
+    },
+    {
+        "id": 5,
+        "title": "Vinilo Hibryd Theory Linkin Park",
+        "description": "Vinilo Hibryd Theory Linkin Park 2000",
+        "price": 5000,
+        "category": "vinilos",
+        "image": "../../img/merch/vinilo1.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Vinilo Meteora Linkin Park",
+        "description": "Vinilo Meteora Linkin Park 2003",
+        "price": 5500 ,
+        "category": "vinilos",
+        "image": "../../img/merch/vinilo2.webp"
+    },
+    {
+        "id": 7,
+        "title": "Collar Linkin Park Estilo Militar",
+        "description": "Collar Linkin Park Estilo Militar Color Plateado",
+        "price": 1000,
+        "category": "collares", 
+        "image": "../../img/merch/collar1.webp"
+    },
+    {
+        "id": 8,
+        "title": "Collar Linkin Park Púa",
+        "description": "Collar Linkin Park Púa Blanco o Negro",
+        "price": 1000,
+        "category": "collares",
+        "image": "../../img/merch/collar2.jpg"
+    }
+]

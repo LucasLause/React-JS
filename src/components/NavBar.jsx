@@ -1,31 +1,32 @@
 import CartWidget from "./CartWidget"
+import { Link } from "react-router-dom"
 
 const NavBar = () => {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <a className="navbar-brand" href="../index.html" id="a-logo">
+                <Link className="navbar-brand" to="/" id="a-logo">
                     <img src="../../img/logos/logo.png" alt="logo" id="logo"/>
-                </a>
+                </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="../index.html">Inicio</a>
+                            <Link className="nav-link" to="/">Inicio</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="../pages/merch.html">Merch</a>
+                            <Link className="nav-link" to="/category/remeras">Remeras</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="../pages/discografia.html">Discografia</a>
+                            <Link className="nav-link" to="/category/buzos">Buzos</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="../pages/sobreNosotros.html">Sobre Nosotros</a>
+                            <Link className="nav-link" to="/category/vinilos">Vinilos</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="../pages/contacto.html">Contacto</a>
+                            <Link className="nav-link" to="/category/collares">Collares</Link>
                         </li>
                     </ul>
                 </div>

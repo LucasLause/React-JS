@@ -37,3 +37,43 @@
     margin-left: 20px;
     margin-top: 20px;
 }
+
+.listaItem{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.card-img-top{
+    width: 85%;
+}
+
+#card-detail{
+    width: 35%;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.detailItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.count-container__qty{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
